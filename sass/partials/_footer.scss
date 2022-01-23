@@ -8,8 +8,15 @@ footer {
     
     
     .footer__container {
-        display: flex;
-        justify-content: space-between;
+        display: block;
+        text-align: center;
         color: getColour(textcoloursecondary);
+
+        @media(min-width: 992px) {
+            display: flex;
+            justify-content: space-between;
+        }
     }
+
+    
 }
