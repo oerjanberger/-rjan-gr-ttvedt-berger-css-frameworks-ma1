@@ -1,0 +1,14 @@
+nav {
+    background-color: getColour(secondary);
+
+    .nav__link {
+        color: getColour(textcoloursecondary) !important;
+        
+        
+        &--active {
+            color: getColour(pink) !important;
+        }
+    }
+
+
+}

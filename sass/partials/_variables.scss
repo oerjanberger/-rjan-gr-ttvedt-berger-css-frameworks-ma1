@@ -1,0 +1,14 @@
+$font-primary: "open sans", sans-serif;
+
+$colours: (
+    primary: #E5E5E5,
+    secondary: #F4F3EE,
+    pink: #C32C72,
+    textcolourmain: #262626,
+    textcoloursecondary: #8D8D8D,
+    textcolourheading: #463F3A
+);
+
+@function getColour($colour) {
+    @return map-get($colours, $colour);
+}

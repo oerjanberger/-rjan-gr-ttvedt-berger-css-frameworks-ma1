@@ -1,0 +1,28 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: $font-primary;
+    background-color: getColour(primary);
+}
+
+.wrapper {
+    flex: 1 0 auto;
+    padding-bottom: 2rem;
+}
+
+.heading__container {
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 20px auto;
+    padding: 0px;
+}
+
+h1 {
+    color: getColour(textcolourheading);
+}

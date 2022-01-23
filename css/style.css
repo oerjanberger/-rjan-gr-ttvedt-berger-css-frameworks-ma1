@@ -1,0 +1,113 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  font-family: "open sans", sans-serif;
+  background-color: #E5E5E5;
+}
+
+.wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  padding-bottom: 2rem;
+}
+
+.heading__container {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 20px auto;
+  padding: 0px;
+}
+
+h1 {
+  color: #463F3A;
+}
+
+nav {
+  background-color: #F4F3EE;
+}
+
+nav .nav__link {
+  color: #8D8D8D !important;
+}
+
+nav .nav__link--active {
+  color: #C32C72 !important;
+}
+
+.container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.squares {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  margin: 2rem 1rem;
+  grid-gap: 1.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.squares__item, .squares__item--white, .squares__item--pink {
+  width: 200px;
+  height: 200px;
+  background-color: #F4F3EE;
+  border-radius: 10px;
+}
+
+.squares__item--white {
+  background-color: white;
+  border: 2px solid #C32C72;
+}
+
+.squares__item--pink {
+  background-color: #C32C72;
+}
+
+@media (min-width: 992px) {
+  .squares {
+    -ms-grid-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto auto;
+  }
+}
+
+footer {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-color: #F4F3EE;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.7rem;
+}
+
+footer .footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #8D8D8D;
+}
+/*# sourceMappingURL=style.css.map */

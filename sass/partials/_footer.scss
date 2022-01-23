@@ -1,0 +1,15 @@
+footer {
+    flex-shrink: 0;
+    background-color: getColour(secondary);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    
+    
+    .footer__container {
+        display: flex;
+        justify-content: space-between;
+        color: getColour(textcoloursecondary);
+    }
+}
